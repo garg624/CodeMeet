@@ -74,3 +74,15 @@
       @apply bg-background text-foreground;
     }
   }
+
+  /* .cl-userButtonTrigger{
+    width: 100px;
+    height: 100px;
+  } */
+
+  .cl-avatarBox{
+    @apply w-12 h-12 rounded-full border-2 dark:border-white;
+  }
+  button{
+    @apply rounded-md bg-slate-300 p-2 dark:bg-neutral-800 text-black dark:text-white;
+  }
